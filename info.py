@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Zenin")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TG_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('-1002231187887', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CINEHUB')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
